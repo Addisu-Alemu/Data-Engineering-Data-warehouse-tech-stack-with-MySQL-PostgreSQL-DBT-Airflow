@@ -1,0 +1,21 @@
+[0;1;32m●[0m docker.service - Docker Application Container Engine
+     Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Tue 2024-04-30 09:59:48 EAT; 33s ago
+TriggeredBy: [0;1;32m●[0m docker.socket
+       Docs: https://docs.docker.com
+   Main PID: 10577 (dockerd)
+      Tasks: 15
+     Memory: 25.1M
+     CGroup: /system.slice/docker.service
+             └─10577 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+Apr 30 09:59:44 addisu-HP-250-G8-Notebook-PC systemd[1]: Starting Docker Application Container Engine...
+Apr 30 09:59:44 addisu-HP-250-G8-Notebook-PC dockerd[10577]: time="2024-04-30T09:59:44.451767356+03:00" level=info msg="Starting up"
+Apr 30 09:59:44 addisu-HP-250-G8-Notebook-PC dockerd[10577]: time="2024-04-30T09:59:44.452352254+03:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Apr 30 09:59:46 addisu-HP-250-G8-Notebook-PC dockerd[10577]: time="2024-04-30T09:59:46.769012807+03:00" level=info msg="Loading containers: start."
+Apr 30 09:59:47 addisu-HP-250-G8-Notebook-PC dockerd[10577]: time="2024-04-30T09:59:47.387811467+03:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Apr 30 09:59:47 addisu-HP-250-G8-Notebook-PC dockerd[10577]: time="2024-04-30T09:59:47.692042345+03:00" level=info msg="Loading containers: done."
+Apr 30 09:59:47 addisu-HP-250-G8-Notebook-PC dockerd[10577]: time="2024-04-30T09:59:47.790652345+03:00" level=info msg="Docker daemon" commit="24.0.5-0ubuntu1~20.04.1" graphdriver=overlay2 version=24.0.5
+Apr 30 09:59:47 addisu-HP-250-G8-Notebook-PC dockerd[10577]: time="2024-04-30T09:59:47.790824679+03:00" level=info msg="Daemon has completed initialization"
+Apr 30 09:59:48 addisu-HP-250-G8-Notebook-PC dockerd[10577]: time="2024-04-30T09:59:48.190271857+03:00" level=info msg="API listen on /run/docker.sock"
+Apr 30 09:59:48 addisu-HP-250-G8-Notebook-PC systemd[1]: Started Docker Application Container Engine.
